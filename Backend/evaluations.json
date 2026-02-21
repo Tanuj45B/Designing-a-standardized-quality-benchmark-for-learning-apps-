@@ -1,0 +1,553 @@
+[
+  {
+    "name": "LearnApp1",
+    "category": "Math",
+    "totalScore": 8.5,
+    "scores": [
+      {
+        "name": "Content Quality",
+        "score": 9,
+        "weight": 0.4,
+        "maxScore": 10
+      },
+      {
+        "name": "Interactivity",
+        "score": 7,
+        "weight": 0.3,
+        "maxScore": 10
+      },
+      {
+        "name": "Usability & Design",
+        "score": 9,
+        "weight": 0.3,
+        "maxScore": 10
+      }
+    ]
+  },
+  {
+    "name": "unacadmy ",
+    "category": "school",
+    "totalScore": "6.00",
+    "scores": [
+      {
+        "name": "Content Quality",
+        "score": 6,
+        "weight": 0.3,
+        "maxScore": 10
+      },
+      {
+        "name": "Interactivity",
+        "score": 7,
+        "weight": 0.2,
+        "maxScore": 10
+      },
+      {
+        "name": "Design & Usability",
+        "score": 6,
+        "weight": 0.3,
+        "maxScore": 10
+      },
+      {
+        "name": "Performance",
+        "score": 5,
+        "weight": 0.2,
+        "maxScore": 10
+      }
+    ]
+  },
+  {
+    "name": "carrier will",
+    "category": "competitive",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "carrier will",
+    "category": "competitive",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Unacadmy",
+    "category": "competitive",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "udemy",
+    "category": "college",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "carrier will",
+    "category": "competitive",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "carrier will",
+    "category": "competitive",
+    "totalScore": 5.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "appName": "Unacadmy",
+    "appCategory": "school",
+    "numLessons": 5,
+    "numQuizzes": 2,
+    "interactiveExercises": 0,
+    "creativeProjects": 0,
+    "analytics": 0,
+    "uiux": 3,
+    "gamification": 0,
+    "targetAudience": "",
+    "languageSupport": ""
+  },
+  {
+    "appName": "Unacadmy",
+    "appCategory": "competitive",
+    "numLessons": 5,
+    "numQuizzes": 2,
+    "interactiveExercises": 0,
+    "creativeProjects": 0,
+    "analytics": 0,
+    "uiux": 3,
+    "gamification": 0,
+    "targetAudience": "",
+    "languageSupport": ""
+  },
+  {
+    "appName": "carrier will",
+    "appCategory": "competitive",
+    "numLessons": 5,
+    "numQuizzes": 2,
+    "interactiveExercises": 0,
+    "creativeProjects": 0,
+    "analytics": 0,
+    "uiux": 3,
+    "gamification": 0,
+    "targetAudience": "adults",
+    "languageSupport": "english "
+  },
+  {
+    "name": "Unacadmy",
+    "category": "competitive",
+    "totalScore": 7.45,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.44999999999999996,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 0.5,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 1,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 1.2000000000000002,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.3,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0.5,
+        "maxScore": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Coursera",
+    "category": "college",
+    "totalScore": 9.6,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.30000000000000004,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 2,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 2,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.6000000000000001,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.2,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0.5,
+        "maxScore": 0.5
+      }
+    ]
+  }
+]

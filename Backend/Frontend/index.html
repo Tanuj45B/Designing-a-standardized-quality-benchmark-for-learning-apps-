@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Quality Benchmark</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <h1>EduBenchmark</h1>
+        <ul>
+            <li><a href="#" id="nav-home">Home</a></li>
+            <li><a href="#" id="nav-evaluate">Evaluate App</a></li>
+            <li><a href="#" id="nav-results">Results</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Dashboard Section -->
+    <section class="dashboard" id="dashboard">
+        <h2>Welcome to Educational Quality Benchmark</h2>
+        <p>Evaluate your learning apps automatically based on Bloom's Taxonomy and professional criteria.</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <h3>Total Apps Evaluated</h3>
+                <p id="total-apps">0</p>
+            </div>
+            <div class="card">
+                <h3>Highest Score</h3>
+                <p id="highest-score">0</p>
+            </div>
+            <div class="card">
+                <h3>Last Evaluated App</h3>
+                <p id="last-app">-</p>
+            </div>
+        </div>
+
+        <button id="start-evaluation">Start Evaluation</button>
+    </section>
+
+    <!-- Evaluation Form Section -->
+    <section class="evaluation-form" id="evaluation-form" style="display:none;">
+        <div class="form-container">
+            <h2>📊 Evaluate Your Learning App</h2>
+            <form id="appForm">
+                <div class="form-group">
+                    <label for="appName">App Name:</label>
+                    <input type="text" id="appName" placeholder="Enter app name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="appCategory">Category:</label>
+                    <input type="text" id="appCategory" placeholder="e.g. Language Learning" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="numLessons">Number of Lessons:</label>
+                    <input type="number" id="numLessons" min="0" max="50" value="5" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="numQuizzes">Number of Quizzes / Tests:</label>
+                    <input type="number" id="numQuizzes" min="0" max="20" value="2" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="interactiveExercises">Interactive Exercises:</label>
+                    <select id="interactiveExercises">
+                        <option value="0">❌ No</option>
+                        <option value="1">✅ Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="creativeProjects">Creative Projects / Assignments:</label>
+                    <select id="creativeProjects">
+                        <option value="0">❌ No</option>
+                        <option value="1">✅ Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="analytics">Analytics / Progress Tracking:</label>
+                    <select id="analytics">
+                        <option value="0">❌ No</option>
+                        <option value="1">✅ Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="uiux">UI/UX Rating (1-5):</label>
+                    <input type="number" id="uiux" min="1" max="5" value="3" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gamification">Gamification / Engagement Features:</label>
+                    <select id="gamification">
+                        <option value="0">❌ No</option>
+                        <option value="1">✅ Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="targetAudience">Age Group / Target Audience:</label>
+                    <input type="text" id="targetAudience" placeholder="e.g. Kids, Teens, Adults">
+                </div>
+
+                <div class="form-group">
+                    <label for="languageSupport">Language Support:</label>
+                    <input type="text" id="languageSupport" placeholder="Supported languages">
+                </div>
+
+                <button type="submit" class="submit-btn">💡 Calculate Score</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="results-section" style="display:none;">
+        <h2>Evaluation Results</h2>
+        <div class="results-summary">
+            <p><strong>App Name:</strong> <span id="result-appName"></span></p>
+            <p><strong>Total Score:</strong> <span id="result-totalScore"></span>/10</p>
+        </div>
+
+        <div class="chart-container" style="width: 80%; max-width: 600px; margin: auto;">
+            <canvas id="criteriaChart"></canvas>
+        </div>
+
+        <div class="recommendations">
+            <h3>Recommendations</h3>
+            <ul id="recommendationList"></ul>
+        </div>
+
+        <div class="criteria-breakdown">
+            <h3>Criteria-wise Score Breakdown</h3>
+            <table id="criteriaTable">
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>Score</th>
+                        <th>Max Score</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <button id="evaluate-another">Evaluate Another App</button>
+        <button id="export-csv">Export Results to CSV</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 EduBenchmark. All rights reserved.</p>
+</footer>
+
+<!-- Script load at end of body -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
