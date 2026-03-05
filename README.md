@@ -14,4 +14,5 @@ Technologies Used:
 - CSS
 - JavaScript
 - Python Backend
-
+Project Update - 5 March
+Backend scoring logic improvement.
