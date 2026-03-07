@@ -19,3 +19,8 @@ Backend scoring logic improvement.
 project progress updated the dashboard
 project progress updated the dashboard 2
 updated the graph(1)
+Update the project (Backend part1)
+Update the project (Backend part2)
+Update the project (Backend part3)
+Update the project (Backend part4)
+Update the project (Backend part5)

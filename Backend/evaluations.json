@@ -549,5 +549,62 @@
         "maxScore": 0.5
       }
     ]
+  },
+  {
+    "name": "Unacadmy",
+    "category": "competitive",
+    "totalScore": 8.525,
+    "scores": [
+      {
+        "name": "Knowledge Level",
+        "score": 0.375,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Comprehension",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Application",
+        "score": 2,
+        "maxScore": 2
+      },
+      {
+        "name": "Analysis",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Evaluation",
+        "score": 0.5,
+        "maxScore": 1
+      },
+      {
+        "name": "Creation",
+        "score": 2,
+        "maxScore": 2
+      },
+      {
+        "name": "Usability & Design",
+        "score": 0.8999999999999999,
+        "maxScore": 1.5
+      },
+      {
+        "name": "Interactivity",
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "name": "Content Quality",
+        "score": 0.25,
+        "maxScore": 1
+      },
+      {
+        "name": "Overall Engagement",
+        "score": 0,
+        "maxScore": 0.5
+      }
+    ]
   }
 ]
