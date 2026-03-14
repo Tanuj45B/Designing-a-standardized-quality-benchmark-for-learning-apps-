@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduBenchmark | Educational App Quality Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="logo"><i class="fa-solid fa-graduation-cap"></i> EduBenchmark</div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#analyzer">Analyzer</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+<div class="hero-content">
+<h1>Evaluate Educational Apps</h1>
+<p>Analyze learning apps using a standardized educational quality benchmark. Discover the best apps for effective learning.</p>
+<a href="#analyzer" class="hero-btn">Start Evaluation</a>
+</div>
+</section>
+
+<!-- ANALYZER SECTION -->
+<section id="analyzer" class="analyzer-section">
+<h2>Educational App Analyzer</h2>
+<p class="section-desc">
+Enter one or more app names (separated by commas) to automatically fetch data from Google Play and evaluate their learning quality.
+</p>
+
+<div class="search-box">
+<i class="fa-solid fa-magnifying-glass"></i>
+<input type="text" id="appName" placeholder="Search learning apps (e.g. Duolingo, Khan Academy)">
+<button onclick="fetchApp()">Analyze Apps</button>
+</div>
+
+<!-- LOADING -->
+<div id="loading" class="loading">
+<div class="spinner"></div>
+<p>Fetching data from Google Play...</p>
+</div>
+
+<!-- RESULTS -->
+<div id="result" class="results-container"></div>
+
+<!-- COMPARISON SECTION (2 apps only) -->
+<div id="comparison" class="comparison-container"></div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features">
+<h2>Why EduBenchmark?</h2>
+<div class="feature-grid">
+<div class="feature-card">
+<i class="fa-solid fa-chart-line"></i>
+<h3>Quality Benchmark</h3>
+<p>Evaluate educational apps using standardized metrics including rating, installs, and learning effectiveness.</p>
+</div>
+<div class="feature-card">
+<i class="fa-solid fa-database"></i>
+<h3>Real Data</h3>
+<p>Automatically fetch live app data directly from Google Play Store using Python scraper.</p>
+</div>
+<div class="feature-card">
+<i class="fa-solid fa-brain"></i>
+<h3>Smart Analysis</h3>
+<p>Analyze educational value and determine which apps provide the best learning experience.</p>
+</div>
+</div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+<h2>About This Project</h2>
+<p>
+EduBenchmark is a research-based system designed to evaluate the educational quality of learning apps available on the Google Play Store.  
+The platform automatically collects app data and analyzes it using a standardized benchmark model to determine how effective an app is for learning.
+</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 EduBenchmark | Educational Quality Benchmark System</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
