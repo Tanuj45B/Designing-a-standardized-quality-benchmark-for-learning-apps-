@@ -9,9 +9,7 @@ import random
 PORT = 8000
 FRONTEND_DIR = "../Frontend"
 
-# =============================
-# MANUAL APP DATA (100+ apps)
-# =============================
+
 
 manual_app_data = {}
 
@@ -37,7 +35,6 @@ apps_list = [
 "ABC Mouse Reading","Starfall Learn"
 ]
 
-# Generate realistic random metrics
 for app in apps_list:
 
     positive = random.randint(5000, 500000)
@@ -51,9 +48,6 @@ for app in apps_list:
         "negative_reviews": negative
     }
 
-# =============================
-# HELPER: Convert installs string
-# =============================
 
 def parseInstalls(installs_str):
 
@@ -75,9 +69,6 @@ def parseInstalls(installs_str):
             return 0
 
 
-# =============================
-# BENCHMARK SCORING
-# =============================
 
 def calculateBenchmarkScore(rating, installs):
 
@@ -87,9 +78,7 @@ def calculateBenchmarkScore(rating, installs):
     return round(rating_score + installs_score, 2)
 
 
-# =============================
-# FETCH PLAY STORE DATA
-# =============================
+
 
 def fetchPlayStoreData(app_name):
 
@@ -107,9 +96,6 @@ def fetchPlayStoreData(app_name):
 
         benchmark_score = calculateBenchmarkScore(rating, installs)
 
-        # =============================
-        # FUZZY MATCH FOR MANUAL DATA
-        # =============================
 
         manual = {
             "quizzes": 0,
@@ -136,7 +122,7 @@ def fetchPlayStoreData(app_name):
 
             "benchmark_score": benchmark_score,
 
-            # Manual metrics
+            
             "quizzes": manual["quizzes"],
             "courses": manual["courses"],
             "practice_tests": manual["practice_tests"],
@@ -149,9 +135,7 @@ def fetchPlayStoreData(app_name):
         return {"error": str(e)}
 
 
-# =============================
-# MULTIPLE APP HANDLER
-# =============================
+
 
 def fetchMultipleApps(app_names_str):
 
@@ -166,9 +150,7 @@ def fetchMultipleApps(app_names_str):
     return results
 
 
-# =============================
-# SERVER HANDLER
-# =============================
+
 
 class Handler(http.server.SimpleHTTPRequestHandler):
 
@@ -200,9 +182,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
 
-# =============================
-# START SERVER
-# =============================
+
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
 
