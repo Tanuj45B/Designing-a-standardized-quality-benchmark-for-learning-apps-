@@ -5,8 +5,9 @@ import urllib.parse
 from google_play_scraper import search
 import math
 import random
+import os
 
-PORT = 8000
+PORT = int(os.environ.get("PORT", 8000))
 FRONTEND_DIR = "../Frontend"
 
 
