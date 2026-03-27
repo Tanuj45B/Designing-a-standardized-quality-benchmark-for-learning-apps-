@@ -6,3 +6,4 @@ Updated the Backend(server.py) with changes part02
 Updated the Backend(server.py) with changes part03
 Updated the Backend(server.py) with changes part04
 Updated the Backend(server.py) with changes part05
+Updated the Backend(server.py) with changes part06 [Added the scraper library to the code]
